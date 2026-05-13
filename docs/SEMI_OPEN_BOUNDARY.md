@@ -1,5 +1,7 @@
 # Semi-Open Boundary
 
+[English](SEMI_OPEN_BOUNDARY.md) | [简体中文](SEMI_OPEN_BOUNDARY.zh-CN.md)
+
 The public-preview repository is a controlled public surface, not a disclosure
 of the full YIYUAN-ASSETS core.
 
@@ -26,4 +28,3 @@ of the full YIYUAN-ASSETS core.
 Public materials should be generated, copied, or curated from the private core
 only through an explicit review boundary. The public repository must not inherit
 private Git history.
-

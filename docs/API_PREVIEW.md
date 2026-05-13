@@ -1,11 +1,16 @@
 # API Preview Entry
 
+[English](API_PREVIEW.md) | [简体中文](API_PREVIEW.zh-CN.md)
+
 Status: bounded public-preview contract map, not a hosted production API.
 
 This page describes the public-safe API entry for YIYUAN-ASSETS public preview.
 It is intended for developers, integration reviewers, and early evaluators who
 need to understand the first value path without receiving protected core
 implementation details.
+
+For repository-wide disclosure limits, see
+[SEMI_OPEN_BOUNDARY.md](SEMI_OPEN_BOUNDARY.md).
 
 ## First Value Path
 

@@ -1,9 +1,13 @@
 # API 预览入口
 
+[English](API_PREVIEW.md) | [简体中文](API_PREVIEW.zh-CN.md)
+
 状态：受限公共预览 contract map，不是托管生产 API。
 
 本文说明 YIYUAN-ASSETS 公共预览阶段的公开安全 API 入口。它面向开发者、集成
 评审者和早期评估者，用于理解第一价值路径，但不提供受保护核心实现细节。
+
+仓库整体披露限制见 [SEMI_OPEN_BOUNDARY.zh-CN.md](SEMI_OPEN_BOUNDARY.zh-CN.md)。
 
 ## 第一价值路径
 

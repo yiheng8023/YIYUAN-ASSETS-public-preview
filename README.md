@@ -36,7 +36,8 @@ exposing protected implementation, internal graph authority, commercial
 orchestration, security internals, or private operational controls.
 
 The semi-open repository boundary is documented in
-[docs/SEMI_OPEN_BOUNDARY.md](docs/SEMI_OPEN_BOUNDARY.md).
+[docs/SEMI_OPEN_BOUNDARY.md](docs/SEMI_OPEN_BOUNDARY.md), with a Chinese version
+available at [docs/SEMI_OPEN_BOUNDARY.zh-CN.md](docs/SEMI_OPEN_BOUNDARY.zh-CN.md).
 
 ## Public Preview Scope
 
