@@ -3,6 +3,8 @@ description: Public-safe integration question or request.
 title: "[Integration]: "
 labels:
   - "type: integration"
+  - "area: api"
+  - "area: public-preview"
   - "status: needs-triage"
 body:
   - type: textarea

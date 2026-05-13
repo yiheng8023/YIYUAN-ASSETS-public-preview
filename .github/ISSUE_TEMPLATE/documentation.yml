@@ -1,8 +1,9 @@
 name: Documentation issue
-description: Report a public documentation problem.
+description: Report a public-safe documentation problem without secrets or protected internals.
 title: "[Docs]: "
 labels:
   - "type: documentation"
+  - "area: public-preview"
   - "status: needs-triage"
 body:
   - type: textarea
@@ -15,5 +16,6 @@ body:
     id: problem
     attributes:
       label: Problem
+      description: Do not include secrets, customer data, exploit details, or protected implementation assumptions.
     validations:
       required: true

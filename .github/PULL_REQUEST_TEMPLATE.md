@@ -10,3 +10,6 @@
 
 ## Verification
 
+- [ ] I reviewed README / PUBLIC_PREVIEW / docs boundary impact.
+- [ ] I did not add production, commercial, legal, or support promises.
+- [ ] I did not add raw private-core output, internal traces, or generated artifacts outside the public-preview boundary.
