@@ -25,6 +25,19 @@ AI can enhance the system, but AI is not the system truth source. The public
 preview posture remains graph-first, deterministic where possible, and
 AI-optional.
 
+## API Preview Entry
+
+The bounded public-preview API entry is documented in
+[docs/API_PREVIEW.md](docs/API_PREVIEW.md).
+
+This is a contract and evaluation surface, not a hosted production API. It
+shows how external modules should approach the governed Assets API without
+exposing protected implementation, internal graph authority, commercial
+orchestration, security internals, or private operational controls.
+
+The semi-open repository boundary is documented in
+[docs/SEMI_OPEN_BOUNDARY.md](docs/SEMI_OPEN_BOUNDARY.md).
+
 ## Public Preview Scope
 
 This repository may include:

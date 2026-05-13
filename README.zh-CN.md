@@ -17,6 +17,16 @@ YIYUAN-ASSETS 的第一价值路径是：外部业务模块通过受治理的 As
 AI 可以增强系统，但不能成为系统事实来源。公共预览阶段仍保持图优先、尽量确定
 性、AI 可选。
 
+## API 预览入口
+
+受限公共预览 API 入口见 [docs/API_PREVIEW.zh-CN.md](docs/API_PREVIEW.zh-CN.md)。
+
+这是一份 contract 与评估入口，不是托管生产 API。它用于说明外部模块应如何
+接近受治理的 Assets API，但不暴露受保护实现、内部图权威、商业编排、安全
+内部细节或私有运维控制。
+
+半开放仓库边界见 [docs/SEMI_OPEN_BOUNDARY.md](docs/SEMI_OPEN_BOUNDARY.md)。
+
 ## 公共预览范围
 
 本仓库可以包含：
