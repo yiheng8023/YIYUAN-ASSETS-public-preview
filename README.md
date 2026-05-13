@@ -1,5 +1,11 @@
 # YIYUAN-ASSETS Public Preview
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
+中文用户可以先阅读 [README.zh-CN.md](README.zh-CN.md)。本仓库是
+YIYUAN-ASSETS 的 source-available 公共预览面，不是私有核心仓库；它用于
+公开评估、边界说明、API 预览、贡献入口和社区协作。
+
 YIYUAN-ASSETS is a graph-first, domain-neutral digital capability infrastructure
 substrate for governed developer integrations.
 
@@ -61,4 +67,3 @@ or production release.
 - [SUPPORT.md](SUPPORT.md) describes public-preview support scope.
 - [PUBLIC_PREVIEW.md](PUBLIC_PREVIEW.md) describes preview maturity and limits.
 - [ROADMAP.md](ROADMAP.md) describes staged public direction.
-
