@@ -1,0 +1,29 @@
+repository:
+  description: "Source-available public-preview surface for YIYUAN-ASSETS, a graph-first governed developer infrastructure substrate."
+  homepage: ""
+  visibility_posture: "public preview surface, not production release"
+  default_branch: "main"
+  topics:
+    - digital-assets
+    - knowledge-graph
+    - developer-tools
+    - infrastructure
+    - governance
+    - auditability
+    - ai-optional
+    - byok
+    - mcp
+    - openapi
+    - typescript
+    - context-engineering
+    - project-continuity
+    - source-available
+    - public-preview
+features:
+  issues: "enabled only with bounded issue templates"
+  discussions: "deferred until public intake capacity is ready"
+  wiki: "disabled; README and governed docs remain source surfaces"
+  projects: "disabled until public roadmap workflow is ready"
+security:
+  vulnerability_alerts: "enabled when GitHub supports it"
+  public_security_issues: "do not disclose exploit details or protected internals publicly"

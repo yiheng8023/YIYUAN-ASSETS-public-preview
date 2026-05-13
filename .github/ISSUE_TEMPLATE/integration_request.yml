@@ -1,0 +1,25 @@
+name: Integration request
+description: Public-safe integration question or request.
+title: "[Integration]: "
+labels:
+  - "type: integration"
+  - "status: needs-triage"
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: Describe the integration scenario without proprietary business logic or secrets.
+    validations:
+      required: true
+  - type: dropdown
+    id: ai_mode
+    attributes:
+      label: AI mode
+      options:
+        - No AI
+        - BYOK
+        - Provider-optional
+        - Unsure
+    validations:
+      required: true

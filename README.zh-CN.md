@@ -1,0 +1,43 @@
+# YIYUAN-ASSETS 公共预览
+
+YIYUAN-ASSETS 是 graph-first、domain-neutral 的数字能力基础设施 substrate，
+面向受治理的开发者集成场景。
+
+本仓库是 source-available 的公共预览面，不是私有核心仓库。它不包含受保护
+核心内核、内部图权威实现、商业编排、安全控制细节或专有治理内核。
+
+## 第一价值路径
+
+YIYUAN-ASSETS 的第一价值路径是：外部业务模块通过受治理的 Assets API 接入，
+获得身份、权限、审计、日志、导出、反馈和可选 AI/BYOK 边界，同时业务逻辑不
+进入 core。
+
+AI 可以增强系统，但不能成为系统事实来源。公共预览阶段仍保持图优先、尽量确定
+性、AI 可选。
+
+## 公共预览范围
+
+本仓库可以包含：
+
+- 公开 README 与文档；
+- 公共预览 API contract 和示例；
+- 经批准公开的 SDK 或 adapter surface；
+- 贡献、支持与安全边界；
+- 非敏感治理证据和发布说明。
+
+本仓库不包含：
+
+- 受保护核心权威或图写入治理内部实现；
+- 私有商业、计费、权益或反滥用实现；
+- 密钥、租户数据、客户数据或 provider transcript；
+- 私有安全发现或利用细节；
+- 可能削弱产品边界的内部运维 runbook。
+
+## 许可证
+
+本仓库使用 YIYUAN-ASSETS Source-Available Public Preview License。它允许公开
+查看、评估、提交 issue 和受限贡献评审，但不授予生产、商业、托管服务、再分发、
+再授权或竞争性基础设施复刻权利。
+
+详见 [LICENSE.md](LICENSE.md) 与 [NOTICE.md](NOTICE.md)。
+

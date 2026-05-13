@@ -1,0 +1,19 @@
+name: Documentation issue
+description: Report a public documentation problem.
+title: "[Docs]: "
+labels:
+  - "type: documentation"
+  - "status: needs-triage"
+body:
+  - type: textarea
+    id: page
+    attributes:
+      label: Page or section
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true

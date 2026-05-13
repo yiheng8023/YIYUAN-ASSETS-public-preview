@@ -1,0 +1,21 @@
+name: Public preview feedback
+description: Public-safe feedback for the YIYUAN-ASSETS preview surface.
+title: "[Preview]: "
+labels:
+  - "type: feedback"
+  - "area: public-preview"
+  - "status: needs-triage"
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Keep this public-safe. Do not include secrets, customer data, or protected internals.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected outcome
+    validations:
+      required: false
