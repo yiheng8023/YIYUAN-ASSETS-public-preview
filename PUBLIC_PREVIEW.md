@@ -1,10 +1,11 @@
 # Public Preview
 
-YIYUAN-ASSETS is currently in a public-preview preparation phase.
+YIYUAN-ASSETS is currently a source-available public-preview surface, not a
+production release.
 
-The public preview is intended for bounded evaluation by developers, technical
-maintainers, integration partners, and teams interested in graph-first,
-AI-optional governance infrastructure.
+The public preview is intended for governed, bounded evaluation by developers,
+technical maintainers, integration partners, and teams interested in
+graph-first, AI-optional governance infrastructure.
 
 ## Preview Guarantees
 

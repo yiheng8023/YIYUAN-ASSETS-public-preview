@@ -68,11 +68,11 @@ See [LICENSE.md](LICENSE.md) and [NOTICE.md](NOTICE.md).
 
 ## Current Maturity
 
-Status: public-preview surface, not production release.
+Status: source-available public-preview surface, not production release.
 
-The project is being prepared for a governed semi-open preview. APIs,
-boundaries, examples, and public-facing materials may change before a commercial
-or production release.
+The repository is open for governed, bounded public-preview evaluation. APIs,
+boundaries, examples, and public-facing materials may still change before a
+commercial or production release.
 
 Public preview readiness, commercial baseline evidence, hardening-cycle
 evidence, and a healthy finding register do not grant commercial release
