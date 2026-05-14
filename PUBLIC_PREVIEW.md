@@ -17,8 +17,13 @@ AI-optional governance infrastructure.
 
 - No production SLA.
 - No hosted availability guarantee.
+- No commercial release clearance.
 - No final pricing, billing, legal, tax, trademark, or regional compliance
   guarantee.
 - No unrestricted open-source grant.
 - No access to protected core internals.
 
+Commercial baseline checks, hardening-cycle evidence, and finding-register
+health are governance evidence for evaluation. They do not create production,
+hosted-service, commercial-use, redistribution, sublicensing, or competing
+infrastructure rights.
