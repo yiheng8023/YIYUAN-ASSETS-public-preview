@@ -1,0 +1,54 @@
+name: Public-surface bug report
+description: Report a reproducible public-preview defect without secrets or protected internals.
+title: "[Bug]: "
+labels:
+  - "type: bug"
+  - "area: public-preview"
+  - "status: needs-triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this only for public-preview repository, documentation, API-preview, or example behavior.
+        Do not include secrets, credentials, tenant data, customer data, exploit details, private logs, or protected implementation assumptions.
+  - type: textarea
+    id: surface
+    attributes:
+      label: Public surface
+      description: Name the public file, command, API-preview path, example, or repository-entry surface involved.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Keep steps public-safe and omit private data or protected core details.
+      placeholder: |
+        1. Open ...
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected public behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual public behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-safety confirmation
+      options:
+        - label: I did not include secrets, credentials, tokens, private logs, or customer/tenant/personal data.
+          required: true
+        - label: I did not include exploit details, protected core internals, or proprietary third-party material.
+          required: true
+        - label: I understand this is a public-preview candidate signal, not a production support commitment.
+          required: true

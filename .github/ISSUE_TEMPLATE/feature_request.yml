@@ -1,0 +1,52 @@
+name: Public-preview feature request
+description: Suggest a bounded public-preview improvement without requiring protected internals.
+title: "[Feature]: "
+labels:
+  - "type: feature"
+  - "area: public-preview"
+  - "status: needs-triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for public-preview repository, documentation, API-preview, example, or evaluator-flow improvements.
+        Requests are candidate signals. They do not become canonical product commitments unless accepted through governed review.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or friction
+      description: Describe the public evaluator, developer, maintainer, or integration friction.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed public-safe improvement
+      description: Keep the proposal outside protected core internals and commercial orchestration.
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Primary audience
+      options:
+        - Developer evaluator
+        - AI-heavy developer
+        - Small technical team
+        - Open-source maintainer
+        - Integration partner
+        - Documentation reader
+        - Unsure
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: This request can be discussed publicly without exposing protected core internals.
+          required: true
+        - label: This request does not require production, legal, billing, SLA, or commercial commitments.
+          required: true
+        - label: This request keeps AI optional and does not assume a specific model provider.
+          required: true

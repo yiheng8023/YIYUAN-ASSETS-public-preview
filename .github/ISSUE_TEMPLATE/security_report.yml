@@ -1,0 +1,42 @@
+name: Private security report route
+description: Request or confirm a private reporting route without disclosing sensitive details publicly.
+title: "[Security Route]: "
+labels:
+  - "type: security-private"
+  - "area: governance"
+  - "status: needs-triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not disclose vulnerability details, exploit steps, secrets, credentials, tenant data, customer data, private logs, or protected implementation details in this public form.
+        Use this issue only to request a private reporting route or ask a non-sensitive coordination question.
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Public-safe request type
+      options:
+        - Request a private reporting route
+        - Confirm where to send a private report
+        - Ask a non-sensitive security policy question
+    validations:
+      required: true
+  - type: textarea
+    id: public_summary
+    attributes:
+      label: Public-safe summary
+      description: Keep this high-level. Do not include exploit details, affected internals, logs, secrets, or reproduction steps.
+      placeholder: I need a private route to report a potential issue.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I did not include vulnerability details, exploit steps, secrets, credentials, tokens, or private logs.
+          required: true
+        - label: I did not include tenant, customer, personal, or proprietary third-party data.
+          required: true
+        - label: I understand maintainers may redirect this to a private channel before any technical detail is discussed.
+          required: true
