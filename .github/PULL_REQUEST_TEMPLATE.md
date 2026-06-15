@@ -13,6 +13,7 @@ What public-preview surface does this change affect?
 - [ ] This change does not expose protected core internals, governance strategy, graph implementation details, orchestration, entitlement enforcement, billing internals, secrets, provider credentials, or proprietary user data.
 - [ ] Any touched protected-adjacent area has maintainer direction.
 - [ ] No screenshots, logs, transcripts, exports, or fixtures contain secrets or private data.
+- [ ] This does not imply production, commercial, legal, or support commitments.
 
 ## AI Optionality
 
@@ -20,6 +21,9 @@ What public-preview surface does this change affect?
 - [ ] Provider output, if used while preparing the change, was reviewed before inclusion.
 
 ## Verification
+
+- [ ] I reviewed README / PUBLIC_PREVIEW / docs boundary impact.
+- [ ] I did not add production, commercial, legal, or support promises.
 
 List the commands or checks run:
 
