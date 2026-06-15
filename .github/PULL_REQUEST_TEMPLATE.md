@@ -10,6 +10,8 @@ What public-preview surface does this change affect?
 
 ## Semi-Open Boundary
 
+- [ ] This does not expose protected core internals.
+- [ ] This does not include secrets, customer data, private security details, or proprietary third-party material.
 - [ ] This change does not expose protected core internals, governance strategy, graph implementation details, orchestration, entitlement enforcement, billing internals, secrets, provider credentials, or proprietary user data.
 - [ ] Any touched protected-adjacent area has maintainer direction.
 - [ ] No screenshots, logs, transcripts, exports, or fixtures contain secrets or private data.
